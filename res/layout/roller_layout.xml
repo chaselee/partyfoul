@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+
+	<com.drunk.RollerView android:id="@+id/roller_view"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		tileSize="24" />
+
+<!-- Created by Corbin Phelps -->
+	<RelativeLayout android:gravity="center_horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/chronstring" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="30sp"
+			android:textColor="#000000" android:text="Current Time: "
+			android:layout_alignParentTop="true" />
+		<Chronometer android:id="@+id/RollerTime"
+			android:layout_toRightOf="@+id/chronstring" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="30sp"
+			android:layout_alignParentTop="true" android:textColor="#000000"
+			android:gravity="center_horizontal" />
+		<TextView android:id="@+id/RollerbestTime"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize="30sp" android:layout_below="@+id/RollerTime"
+			android:textColor="#000000" android:gravity="center_horizontal" />
+		<TextView android:id="@+id/rollerprompt"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="40sp" android:layout_below="@+id/RollerbestTime"
+			android:text="Tilt to Dodge the Lines" android:textColor="#000000"
+			android:gravity="center_horizontal" />
+	</RelativeLayout>
+</FrameLayout>

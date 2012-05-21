@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal">
+	<TextView android:layout_width="wrap_content" android:id="@+id/Result"
+		android:layout_height="wrap_content" android:text="Results:"
+		android:textSize="72sp" android:textColor="#B8860B"
+		android:layout_alignParentTop="true" android:layout_marginLeft="40px" />
+	<LinearLayout android:id="@+id/blankll"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/Result">
+	</LinearLayout>
+	<TextView android:id="@+id/status" android:layout_width="wrap_content"
+		android:layout_below="@+id/blankll" android:layout_height="wrap_content"
+		android:textSize="30sp" android:textColor="#00FF00" android:gravity="center_horizontal"
+		android:layout_marginTop="75px" android:layout_centerInParent="true" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_below="@+id/status" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_marginTop="75px">
+		<Button android:id="@+id/adddrink" android:layout_width="fill_parent"
+			android:layout_height="100px" android:text="Add Drinks"
+			android:layout_weight="1" />
+		<Button android:id="@+id/play" android:layout_width="fill_parent"
+			android:layout_height="100px" android:text="Play Game"
+			android:layout_weight="1" />
+	</LinearLayout>
+</RelativeLayout>

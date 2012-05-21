@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Party Foul</string>
+    <string name="Disclaimer">Disclaimer:  Please note that results from app are just estimations and should not be used as an actual measurement of how drunk you are.</string>
+	<string name="Sober">Are you drinking?</string>
+	<string name="Well">You hold your drink well Sir!</string>
+	<string name="Buzzed">You are a bit buzzed</string>
+	<string name="slightly_drunk">You are slightly drunk</string>
+	
+	<string name="Shitfaced">You are super shitfaced</string>
+<string name="Drunk">You are Drunk!</string>
+</resources>

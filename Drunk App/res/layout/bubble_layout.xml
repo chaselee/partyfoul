@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<com.drunk.BubbleView android:id="@+id/bubble"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		tileSize="24" />
+
+
+	<RelativeLayout android:gravity="right"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/timer" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/score" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_below="@+id/timer" android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/highscore" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_below="@+id/score" android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/start" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:text="Pop The Bubbles!!!" android:layout_marginTop="250px"
+			android:textSize="30sp" android:textColor="#FF3300" />
+
+	</RelativeLayout>
+</FrameLayout>

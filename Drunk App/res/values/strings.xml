@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Walk The Line</string>
+    <string name="Disclaimer">Disclaimer:  Please note that results from app are just estimations and should not be used as an actual measurement of how drunk you are.</string>
+</resources>

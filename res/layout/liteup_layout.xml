@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<com.drunk.LiteupView android:id="@+id/liteup_view"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		tileSize="24" />
+
+	<RelativeLayout android:gravity="right"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/liteuptimer" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/liteupscore" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_below="@+id/liteuptimer" android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/lthighscore" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#F0F8FF"
+			android:layout_below="@+id/liteupscore" android:layout_alignParentRight="true" />
+		<TextView android:id="@+id/liteupprompt" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:text="Tap the Blue Square" android:layout_marginTop="250px"
+			android:textSize="30sp" android:textColor="#FF3300" />
+
+	</RelativeLayout>
+</FrameLayout>

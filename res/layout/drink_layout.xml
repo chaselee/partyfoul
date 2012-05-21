@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:layout_gravity="center_horizontal">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="How many drinks have you had?"
+		android:textSize="25sp" android:textColor="#B8860B" android:gravity="center_horizontal"/>
+	<TextView android:id="@+id/num_drinks" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="100sp"
+		android:gravity="center_horizontal" android:layout_marginTop="70px" />
+	<SeekBar android:id="@+id/drink_bar" android:layout_width="300px"
+		android:layout_height="wrap_content" android:max="50" android:layout_marginLeft="10px"/>
+	<TextView android:id="@+id/taunt" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal"
+		android:textSize="25sp" android:layout_marginTop="25px"/>
+	<Button android:id="@+id/yes" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Play Game!"
+		android:textSize="20sp" android:layout_marginTop="75px"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.drunk" android:versionCode="1" android:versionName="1.0">
+
+
+	<application android:icon="@drawable/beer_mug"
+		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		android:label="@string/app_name">
+		<activity android:name=".Main" android:screenOrientation="portrait"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="Bubblepop" android:screenOrientation="portrait"
+			android:label="bubble">
+		</activity>
+		<activity android:name="Drink" android:screenOrientation="portrait"
+			android:label="drink">
+		</activity>
+		<activity android:name="Results" android:screenOrientation="portrait"
+			android:label="result">
+		</activity>
+		<activity android:name="Shapes" android:screenOrientation="portrait"
+			android:label="shape">
+		</activity>
+		<activity android:name="Liteup" android:screenOrientation="portrait"
+			android:label="liteup">
+		</activity>
+		<activity android:name="Roller" android:screenOrientation="portrait"
+			android:label="roller">
+		</activity>
+
+	</application>
+</manifest>

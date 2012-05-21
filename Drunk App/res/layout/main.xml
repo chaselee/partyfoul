@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal">
+	<TextView android:id="@+id/Title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Walk the Line!"
+		android:textSize="35sp" android:textColor="#B8860B" />
+	<ImageView android:id="@+id/mug" android:layout_width="150px"
+		android:layout_height="200px" android:background="@drawable/beer_mug"
+		android:layout_marginTop="30px" android:layout_marginLeft="10px" />
+	<Button android:id="@+id/start" android:layout_height="150px"
+		android:layout_width="fill_parent" android:text="Start"
+		android:textSize="40sp" android:layout_marginTop="50px" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/Disclaimer" />
+</LinearLayout>
